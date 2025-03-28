@@ -21,7 +21,7 @@ public class PatrolState : BaseState
     {
 
         _isMoving = false;
-
+        enemy.Animator.SetTrigger("PatrolState");
     }
 
 

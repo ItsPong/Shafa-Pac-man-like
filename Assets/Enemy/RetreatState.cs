@@ -14,7 +14,7 @@ public class RetreatState : BaseState
     {
 
         Debug.Log("Start Retreating");
-
+        enemy.Animator.SetTrigger("RetreatState");
     }
 
 
