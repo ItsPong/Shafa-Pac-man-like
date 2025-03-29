@@ -24,10 +24,13 @@ public class ScoreManager : MonoBehaviour
         _score += value;
         UpdateUI();
     }
-    private void Start()
+    private void Awake()
     {
         _score = 0;
         _maxScore = 0;
+    }
+    private void Start()
+    {
         UpdateUI();
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PickableManager : MonoBehaviour
@@ -41,8 +42,6 @@ public class PickableManager : MonoBehaviour
 
         }
         _scoreManager.SetMaxScore(_pickableList.Count);
-        Debug.Log("Pickable List: " + _pickableList.Count);
-
     }
 
 
@@ -71,7 +70,7 @@ public class PickableManager : MonoBehaviour
 
         {
 
-            Debug.Log("Win");
+            SceneManager.LoadScene("winScreen");
 
         }
 
