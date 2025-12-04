@@ -15,7 +15,6 @@ public class ChaseState : BaseState
     {
 
         Debug.Log("Start Chasing");
-        enemy.Animator.SetTrigger("ChaseState");
 
 
     }

@@ -265,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1970089161}
+      objectReference: {fileID: 0}
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Waypoints.Array.data[0]
       value: 
@@ -982,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1970089161}
+      objectReference: {fileID: 0}
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Waypoints.Array.data[0]
       value: 
@@ -10014,7 +10014,7 @@ PrefabInstance:
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1970089161}
+      objectReference: {fileID: 0}
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Waypoints.Array.data[0]
       value: 
@@ -10120,7 +10120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c97f619314e58c46bef05ec6a790b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 1970089161}
+  _player: {fileID: 0}
   _scoreManager: {fileID: 573596366}
 --- !u!4 &1463301445 stripped
 Transform:
@@ -12943,7 +12943,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1970089162}
-  - component: {fileID: 1970089161}
   - component: {fileID: 1970089163}
   - component: {fileID: 1970089164}
   m_Layer: 0
@@ -12953,24 +12952,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1970089161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970089160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f445a8ceec7985c488387ea2e9698d3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 300
-  _camera: {fileID: 963194228}
-  _powerupDuration: 5
-  _health: 3
-  _healthText: {fileID: 92067856}
-  _respawnPoint: {fileID: 1589452555}
 --- !u!4 &1970089162
 Transform:
   m_ObjectHideFlags: 0
@@ -13785,7 +13766,7 @@ PrefabInstance:
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1970089161}
+      objectReference: {fileID: 0}
     - target: {fileID: 8511581568944115677, guid: d2dcb38562af70e4da841ba7ec323c9a, type: 3}
       propertyPath: Waypoints.Array.data[0]
       value: 

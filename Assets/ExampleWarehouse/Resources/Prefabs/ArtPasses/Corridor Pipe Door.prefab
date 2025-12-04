@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 6079540899312852407}
   - component: {fileID: 6229093463333193248}
   - component: {fileID: 5810586313618443057}
+  - component: {fileID: 6919435790099876139}
   m_Layer: 0
   m_Name: Tunnel Piipes004
   m_TagString: Untagged
@@ -117,6 +118,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6919435790099876139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170484977073628133}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.6990557, y: 4.5369925, z: 5.504353}
+  m_Center: {x: 2.999538, y: 2.2683132, z: 2.9985442}
 --- !u!1 &2994358366983479318
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,6 +150,7 @@ GameObject:
   - component: {fileID: 4771687081337452803}
   - component: {fileID: 3454155693440279030}
   - component: {fileID: 7160605914764038189}
+  - component: {fileID: 7718701035620010242}
   m_Layer: 0
   m_Name: Light004
   m_TagString: Untagged
@@ -200,6 +223,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7718701035620010242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994358366983479318}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.5393047, y: 0.9312612, z: 5.749999}
+  m_Center: {x: -2.999537, y: 4.1898017, z: -2.9999945}
 --- !u!1 &4912714068148819720
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +255,7 @@ GameObject:
   - component: {fileID: 935137916633349233}
   - component: {fileID: 2870002570052805764}
   - component: {fileID: 8279835408822339126}
+  - component: {fileID: 5755354303643299682}
   m_Layer: 0
   m_Name: Tunnel Beams004
   m_TagString: Untagged
@@ -283,3 +328,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5755354303643299682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912714068148819720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.7000027, y: 4.649569, z: 5.9999986}
+  m_Center: {x: -3.0000105, y: 2.3239768, z: -2.9999948}
